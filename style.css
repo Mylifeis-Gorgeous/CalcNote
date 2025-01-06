@@ -57,6 +57,8 @@ button:active{
 
 @media(max-width: 768px) {
     .container {
+        display: flex;
+        height: 100vh;
         flex-direction: column;
         gap: 0px;
         margin: 0;
