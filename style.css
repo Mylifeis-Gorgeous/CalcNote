@@ -1,0 +1,82 @@
+body {
+    /* background-color: red; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.box{
+    /* background-color: pink; */
+    /* height: 70vh; */
+    /* width: 70vh; */
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+}
+.screen{
+    background-color: skyblue;
+    width: 254px;
+    height: 60px;
+    margin-bottom: 4px;
+    font-size: 1.5rem;
+    
+    text-align: right;
+}
+.button{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+button:active{
+    background-color: aliceblue;
+}
+.notes{
+        /* background-color: pink; */
+    height: 315px;
+    width: 254px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;    
+}
+.screen2{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+
+
+@media(max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .box {
+        width: 60%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .button {
+        flex: 1 0 25%;
+        /* padding: 20px; */
+        font-size: 1.2rem;
+        border-radius: 5px;
+    }
+    .screen{
+        width: 100%;
+    }
+    
+}
