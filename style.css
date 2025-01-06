@@ -59,6 +59,7 @@ button:active{
     .container {
         flex-direction: column;
         gap: 0px;
+        margin: 0;
     }
     .box {
         width: 60%;
